@@ -15,8 +15,10 @@ import {
 } from '../utils/quote';
 import { useCountdownTimer } from '../../../hooks/bridge/useCountdownTimer';
 import MascotBackgroundAnimation from '../../swaps/mascot-background-animation/mascot-background-animation';
-import { getCurrentCurrency } from '../../../selectors';
-import { getNativeCurrency } from '../../../ducks/metamask/metamask';
+import {
+  getCurrentCurrency,
+  getNativeCurrency,
+} from '../../../ducks/metamask/metamask';
 import { useCrossChainSwapsEventTracker } from '../../../hooks/bridge/useCrossChainSwapsEventTracker';
 import { useRequestProperties } from '../../../hooks/bridge/events/useRequestProperties';
 import { useRequestMetadataProperties } from '../../../hooks/bridge/events/useRequestMetadataProperties';

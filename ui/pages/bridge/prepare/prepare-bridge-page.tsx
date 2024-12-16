@@ -325,8 +325,6 @@ const PrepareBridgePage = () => {
               input: 'token_source',
               value: token.address,
             });
-          dispatch(setFromToken(token));
-          dispatch(setFromTokenInputValue(null));
         }}
         networkProps={{
           network: fromChain,
